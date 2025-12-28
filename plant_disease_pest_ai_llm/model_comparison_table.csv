@@ -1,0 +1,6 @@
+Model,Architecture,Dataset,Crop,Disease/Pest,Metric,Reported Performance,Deployment Context,Notes,Source
+CNN,Basic CNN,PlantVillage,Multiple Crops,Multiple Diseases,Accuracy,High,Lab images,High accuracy but limited field generalization,This paper
+ResNet-50,Residual CNN,PlantVillage,Tomato,Leaf Blight,Accuracy,Very High,Lab images,Deep architectures improve feature extraction,This paper
+EfficientNet,Lightweight CNN,PlantVillage,Potato,Early Blight,Accuracy,High,Edge deployment,Balances accuracy and computational cost,This paper
+Vision Transformer,Transformer-based,Custom Field Dataset,Multiple Crops,Multiple Diseases,Accuracy,Moderate-High,Field images,Handles complex backgrounds better,This paper
+MobileNet,Lightweight CNN,PlantVillage,Multiple Crops,Pests & Diseases,Accuracy,Moderate,Mobile deployment,Suitable for smartphone-based diagnosis,This paper
