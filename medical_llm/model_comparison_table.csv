@@ -1,0 +1,7 @@
+Model,Task,Clinical Domain,Dataset/Benchmark,Metric,Reported Performance,Evaluation Focus,Notes,Source
+
+GPT-4,Clinical QA,General Medicine,MedQA,Accuracy,High,Clinical reasoning,Strong reasoning but opaque decision process,This paper
+Med-PaLM,Medical QA,General Medicine,MedQA,Accuracy,High,Domain adaptation,Specialized medical training improves consistency,This paper
+BioBERT,NER,Clinical Text,i2b2,F1,High,Information extraction,Effective for structured clinical entities,This paper
+ClinicalBERT,Text Classification,Clinical Notes,MIMIC-III,F1,Moderate-High,Contextual understanding,Pretraining on clinical text improves performance,This paper
+LLaMA-based Medical LLM,Medical QA,Multi-domain,PubMedQA,Accuracy,Moderate,Knowledge grounding,Performance depends heavily on prompt and grounding,This paper
